@@ -1,0 +1,58 @@
+/* HEADER */
+
+header{
+    padding: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #C1CFD0;
+    letter-spacing: 8px;
+}
+
+h1{
+    font-weight: 100px;
+}
+
+#cv{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 8px
+}
+/* MAIN */
+
+.container{
+    position: relative;
+    top: -25px;
+    margin: 60px auto;
+    max-width: 70%;
+}
+
+.foto{
+    display:block;
+    margin:auto;
+    border-radius: 50% 50%;
+    width: 250px;
+    height: 250px;
+}
+
+dl{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    position: relative;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 8px;
+    background-color: #D8C2B0;
+}
+
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+}
