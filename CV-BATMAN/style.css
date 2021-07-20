@@ -9,6 +9,9 @@ body{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+nav ul li{
+    display: inline-block;
+}
 h1,h2{
     background-color: #C4C4C4;
     color: #005677;

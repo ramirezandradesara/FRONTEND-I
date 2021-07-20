@@ -1,0 +1,70 @@
+/* HEADER */
+
+section.banner{
+    /*background: wheat url("../img/lemon-pie.png") no-repeat fixed -200px center;*/
+    background-color: wheat;
+    background-image: url("./img/lemon-pie\ 1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -200px center;
+    background-size: cover;
+    height: 460px;
+}
+
+
+/* Estilos Generales */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap'); 
+/* @font-face{
+    src: url("../fonts/Inter/static/Inter-Bold.ttf");
+    font-family: "Inter-Bold";
+}
+@font-face{
+    src: url("../fonts/Inter/static/Inter-Regular.ttf");
+    font-family: "Inter-Regular";
+}*/
+
+body{
+    font-family: 'Inter-Bold', sans-serif;
+}*/
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Main */  
+h1{
+    font-weight: 900;
+    font-family: 'Inter-Regular', sans-serif;
+}
+h2 {
+    font-size: 30px; 
+    font-weight: 700;;
+}
+
+h3 {
+    font-style: italic; 
+}
+
+.banner > p{
+    color: green;
+}
+.icono-receta{
+    color: red;
+    font-size: 20px;
+    background-color: orange;
+    padding: 5px;
+}
+/* Footer */
+footer {
+    background-color: #ccc;
+    text-align: center;
+}
+.icono-social{
+    margin-right: 10px;
+}
