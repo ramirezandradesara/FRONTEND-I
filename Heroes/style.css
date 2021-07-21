@@ -1,0 +1,76 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none; 
+}
+Header
+
+.descuentos{
+    background-color: #1CD1B0;
+
+}
+.parrafo-descuentos{
+    padding-left: 15px;
+}
+.div-h1{
+    padding-left: 30px;
+    background-color: #00669F;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+Main
+.card{
+    display: inline-block;
+    border-radius: 16px 16px 0px 0px;
+
+}
+.card-img-batman{
+    background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.jpg);
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 293px;
+    
+}
+
+
+Footer
+
+footer{
+    color: white;
+    background-color: #00669F;
+}
+*/
