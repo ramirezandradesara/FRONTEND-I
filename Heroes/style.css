@@ -4,8 +4,60 @@
     padding: 0%;
     box-sizing: border-box;
 }
+/* header */
+
+h3{
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-size: 15px;
+}
+
+h1{
+    background-color: #00669F;
+    left: 200px;
+    Height: 101px;
+    padding: 28px;
+    font-size: 40px;
+}
+
+/* main */
 
 
+.top{
+   position: relative;
+
+}
+
+.pic{
+    position: absolute;
+    left: 90px;
+    top: 108px;
+    border-radius: 50%;
+}
+
+.heart{
+    position: absolute;
+    width: 50px;
+    top: 16px;
+    left: 21px;
+    z-index: 100;
+}
+
+.info-heroe{
+    position: relative;
+}
+
+
+
+/* footer */
+
+footer{
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-style: normal;
+    font-weight: lighter;
+    padding: 16px;
+}
 
 
 

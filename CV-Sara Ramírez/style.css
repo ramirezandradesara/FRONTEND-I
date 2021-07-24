@@ -1,3 +1,5 @@
+
+
 /* HEADER */
 
 header{
@@ -6,10 +8,12 @@ header{
     font-family: 'Raleway', sans-serif;
     background-color: #C1CFD0;
     letter-spacing: 8px;
+    margin: 0px;
 }
 
 h1{
     font-weight: 100px;
+    border: #D8C2B0;
 }
 
 #cv{
@@ -24,6 +28,7 @@ h1{
     top: -25px;
     margin: 60px auto;
     max-width: 70%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .foto{
@@ -34,8 +39,10 @@ h1{
     height: 250px;
 }
 
+
 dl{
     font-family: 'Open Sans', sans-serif;
+    margin: 20px;
 }
 
 h2{
@@ -45,6 +52,7 @@ h2{
     font-weight: 600;
     letter-spacing: 8px;
     background-color: #D8C2B0;
+    padding: 5px 10px;
 }
 
 span {
@@ -52,7 +60,17 @@ span {
     font-weight: 700;
 }
 
+dt, dd, li{
+    padding: 1px
+}
+
+dd{
+    margin-left: 45px;
+}
+
 /* FOOTER */
 footer{
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
+
