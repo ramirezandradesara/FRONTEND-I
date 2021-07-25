@@ -1,19 +1,17 @@
 
-
 /* HEADER */
 
 header{
-    padding: 25px;
+    padding: 50px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     background-color: #C1CFD0;
     letter-spacing: 8px;
-    margin: 0px;
+    width: 100%;
 }
 
 h1{
     font-weight: 100px;
-    border: #D8C2B0;
 }
 
 #cv{
