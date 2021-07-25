@@ -36,8 +36,14 @@ dl{
     margin-left: 40px;
 }
 dd{
-    margin-left: 85px;
+    margin-left: 77px;
 }
+
+dd, li{
+    padding: 3px
+}
+/* FOOTER */
+
 footer{
     background-color: #005677;
     color: white;
