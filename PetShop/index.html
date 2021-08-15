@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <title>PetShop</title>
 </head>
@@ -12,35 +13,36 @@
 <body>
     <header>
         <div class="container">
-            <section class="primermenu">
+            <div class="comederos">
                 <p>Grandes ofertas en comederos</p>
+            </div>
+            <div class="nav-header1">
                 <ul>
                     <li>Español</li>
-                    <li>$ARGs</li>
+                    <li>ARG$</li>
                 </ul>
-            </section>
+           </div>
         </div>
         <div class="container1">
-            <section class="menu">
-                <a href="">
+            <div class="logo">
+                <a href="#">
                     <img src="img/Logo.png" alt="Logo">
                 </a>
+            </div>
+            <div class="nav-menu">
                 <nav>
                     <ul>
-                        <li><a href="#">Categorías</a></li>
-                        <li><a href="#">Pets</a></li>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Contactanos</a></li>
+                        <li><i class="fas fa-paw"></i><a href="#">Categorías</a></li>
+                        <li><i class="fas fa-paw"></i><a href="#">Pets</a></li>
+                        <li><i class="fas fa-paw"></i><a href="#">Nosotros</a></li>
+                        <li><i class="fas fa-paw"></i><a href="#">Contactanos</a></li>
                     </ul>
                 </nav>
-            </section>
+            </div>
         </div>
     </header>
     <main>
-        <section>
-            <div><img src="./img/foto.jpg" alt="foto-banner">
-                <p></p>
-            </div>
+        <section class="banner">
             <p>¡Es un placer tenerte aquí! </p>
             <p>¡Comederos en descuento!</p>
             <p>COMEDEROS</p>
@@ -65,8 +67,27 @@
                 <p>$150</p>
             </div>
         </section>
+        <div>
+        <form action="./registro" method="POST">
+            <legend>Contactanos</legend>
+            <label for="user"></label>
+            <input type="text" id="user" name="user" placeholder="Nombre y Apellido">
+            <br>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico">
+            <br>
+            <label for="tel"></label>
+            <input type="tel" name="tel" id="tel" placeholder="Teléfono">
+        </form>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+    </div>
     </main>
     <footer>
+        <h2>Suscríbete para más novedades</h2>
         <p>Todos los derechos reservados Front End</p>
     </footer>
 </body>

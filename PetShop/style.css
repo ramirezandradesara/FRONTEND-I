@@ -1,10 +1,65 @@
-section.primermenu {
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container {
     background-color: #222222;
     color: #F3F3F3;
-    font-family: 'Roboto', sans-serif
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 15px;
+    align-items: center;
+}
+
+.nav-header1 ul li{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 5px
+} 
+
+.logo{
+   /*  padding: 20px 40px; */
 }
 
 .container1{
-    background-color: coral;
+    background-color:#F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
 }
 
+
+.nav-menu nav ul li{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.nav-menu nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu i {
+    color: white
+}
+
+.banner {
+    
+}
+
+ /* ********** MAIN ********** */
+
+ .banner{
+    background-image: url('./img/foto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ }
