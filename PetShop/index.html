@@ -2,11 +2,13 @@
 <html lang="Español">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
     <title>PetShop</title>
 </head>
 
@@ -21,12 +23,12 @@
                     <li>Español</li>
                     <li>ARG$</li>
                 </ul>
-           </div>
+            </div>
         </div>
         <div class="container1">
             <div class="logo">
                 <a href="#">
-                    <img src="img/Logo.png" alt="Logo">
+                    <img src="img/Logo.png" alt="Logo" />
                 </a>
             </div>
             <div class="nav-menu">
@@ -43,52 +45,94 @@
     </header>
     <main>
         <section class="banner">
-            <p>¡Es un placer tenerte aquí! </p>
+            <p class="saludo">¡Es un placer tenerte aquí!</p>
             <p>¡Comederos en descuento!</p>
-            <p>COMEDEROS</p>
+            <p class="comederos2">COMEDEROS</p>
         </section>
-        <section>
-            <img src="./img/pawprint 1.png" alt="">
+        <section class="titulo">
+            <img src="./img/pawprint 1.png" alt="" />
             <h2>Productos Destacados</h2>
             <p>Comederos - Accesorios - Comidas</p>
+        </section>
+        <section class="cards">
             <div>
-                <img src="./img/churrasquito.jpg" alt="Churrasquito">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
+                <img src="./img/churrasquito.jpg" alt="Churrasquito" />
+                <p class="producto">Juguete Churrasquito</p>
+                <p class="precio">$150</p>
             </div>
             <div>
-                <img src="./img/comedero.jpg" alt="Comedero">
-                <p>Comedero para perro</p>
-                <p>$250</p>
+                <img src="./img/comedero.jpg" alt="Comedero" />
+                <p class="producto">Comedero para perro</p>
+                <p class="precio">$250</p>
             </div>
             <div>
-                <img src="./img/Huesito.jpg" alt="Huesito">
-                <p>Juguete Huesito</p>
-                <p>$150</p>
+                <img src="./img/Huesito.jpg" alt="Huesito" />
+                <p class="producto">Juguete Huesito</p>
+                <p class="precio">$150</p>
             </div>
         </section>
-        <div>
-        <form action="./registro" method="POST">
-            <legend>Contactanos</legend>
+        <form action="#" method="POST">
+            <legend>Contáctanos</legend>
             <label for="user"></label>
-            <input type="text" id="user" name="user" placeholder="Nombre y Apellido">
-            <br>
+            <input type="text" id="user" name="user" placeholder="Nombre y Apellido" />
+            <br />
             <label for="email"></label>
-            <input type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico">
-            <br>
+            <input type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico" />
+            <br />
             <label for="tel"></label>
-            <input type="tel" name="tel" id="tel" placeholder="Teléfono">
+            <input type="tel" name="tel" id="tel" placeholder="Teléfono" />
+            <div class="buttons">
+                <input type="reset" class="reset" value="Resetear" />
+                <input type="submit" class="enviar" value="Enviar" />
+            </div>
         </form>
-    </div>
-    <br>
-    <div>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Resetear">
-    </div>
+        <form action="#" method="POST" class="correo">
+            <div class="div-form2">
+                <img src="./img/correo.svg" alt="correo">
+                <p>Suscríbete para más novedades</p>
+            </div>
+            <div class="div-form2">
+                <label for="email"></label>
+                <input type="email" class="mail2" name="email" id="email" placeholder="Ingresá tu correo electrónico" />
+                <input type="submit" class="enviar2" value="Suscribirme" />
+            </div>
+
+        </form>
     </main>
     <footer>
-        <h2>Suscríbete para más novedades</h2>
-        <p>Todos los derechos reservados Front End</p>
+        <section class="datos-footer">
+            <section>
+                <section>
+                    <img src="./img/location.svg" alt="location">
+                </section>
+                <section class="footer-texto">
+                    <p>Localidad</p>
+                    <p class="dato">Av. Cordoba 1565</p>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <img src="./img/tel.svg" alt="tel">
+                </section>
+
+                <section class="footer-texto">
+                    <p>Teléfono</p>
+                    <p class="dato">1133995522</p>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <img src="./img/mail.svg" alt="mail">
+                </section>
+                <section class="footer-texto">
+                    <p>Correo Eletrónico</p>
+                    <p class="dato">catdog@huesito.com</p>
+                </section>
+            </section>
+        </section>
+        <div>
+            <p>Todos los derechos reservados Front End</p>
+        </div>
     </footer>
 </body>
 

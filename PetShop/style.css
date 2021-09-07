@@ -4,9 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border:none
 
 }
 
+img, media {
+    max-width: 100%;
+}
 
 .container {
     background-color: #222222;
@@ -20,13 +24,8 @@
 
 .nav-header1 ul li{
     display: inline-block;
-    justify-content: space-around;
     padding: 5px
 } 
-
-.logo{
-   /*  padding: 20px 40px; */
-}
 
 .container1{
     background-color:#F0A83E;
@@ -51,15 +50,158 @@
     color: white
 }
 
-.banner {
-    
-}
-
  /* ********** MAIN ********** */
 
  .banner{
-    background-image: url('./img/foto.jpg');
+    background-image: url(./img/foto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    height: 400px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 15px;
  }
+
+.saludo{
+    background-color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.comederos2{
+    background-color: #F0A83E;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.titulo{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+h2{
+    color: #3C2313;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    text-align: center
+}
+
+.product{
+    color: #3C2313;
+    font-weight: 600;
+}
+
+.precio{
+    color: #F0A83E;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+legend{
+    color:#3C2313;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+input{
+    color: white;
+    background-color: #3C2313;
+    padding: 13px;
+    padding-right: 200px;
+    border-radius: 25px;
+    font-size: 11px;
+}
+.buttons{
+    padding: 30px
+}
+
+.reset{
+    padding: 10px 20px 10px;
+    font-size: 15px;
+    background-color: grey;
+}
+
+.enviar{
+    padding: 10px 30px 10px;
+    font-size: 15px; 
+    background-color:#F0A83E;
+}
+
+.correo{
+    display: flex;
+    background-color:#F0A83E;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.correo p {
+    color: white;
+    font-weight: bolder;
+    padding: 2px
+}
+
+.mail2{
+    background-color: white;
+}
+
+.enviar2{
+    padding: 15px
+}
+
+.div-form2{
+    display: inline-flex;
+}
+
+
+footer div{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.datos-footer{
+    background-color:#3C2313 ;
+
+}
+
+.datos-footer p {
+    color: white;
+    padding: 2px;
+}
+
+.datos-footer section{
+    display: flex;
+    padding: 8px;
+}
+
+.footer-texto{
+    display: block;
+    flex-direction: column;
+}
+
+.dato{
+    font-size: 10px;
+}
