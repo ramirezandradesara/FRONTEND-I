@@ -59,7 +59,6 @@ nav ul li a{
 }
 
 ul{
-    list-style-type: none;
     display: flex;
     justify-content: space-around;
     Width: 284px;
@@ -107,8 +106,8 @@ h2{
     background-color: white;
     display: inline-block;
     justify-content: center;
-    
     Width: 50%; 
+
 }
 
 .h2-podio{
@@ -118,10 +117,11 @@ h2{
 }
 
 .parte-inferior{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
+    padding-top: 50px;
 }
 
 .sabores{
@@ -131,15 +131,15 @@ h2{
     font-weight: bold 
 }
 
-li{
-    display: flex;
-
-}
-
 .h2-top{
     display: block;
     text-align: center;
     color: black;
+}
+
+
+ol li {
+    padding: 5px;
 }
 
 /* .h2-podio ol li{
